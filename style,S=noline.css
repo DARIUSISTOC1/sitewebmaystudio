@@ -3,13 +3,16 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background: #fff;
 }
-header, footer {
+
+header,
+footer {
     background-color: rgb(73, 70, 25);
     color: rgb(242, 255, 101);
     padding: 20px;
     text-align: center;
     clear: both;
 }
+
 section {
     background-color: rgb(255, 242, 101);
     color: rgb(73, 70, 25);
@@ -17,33 +20,39 @@ section {
     text-align: center;
     box-shadow: 0 2px 0 rgba(0, 0, 0, 0.08);
 }
+
 header {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
 }
+
 .active {
     background-color: rgb(242, 255, 101);
     color: rgb(73, 70, 25);
     border-radius: 6px;
     padding: 10px 15px;
 }
+
 footer {
     padding: 5em 0em;
     text-align: center;
 }
+
 footer a {
     color: rgb(242, 255, 101);
     text-decoration: none;
     font-weight: bold;
 }
+
 nav {
     display: flex;
     justify-content: space-around;
     width: 50%;
     align-items: center;
 }
+
 nav a {
     color: rgb(242, 255, 101);
     text-decoration: none;
@@ -51,22 +60,26 @@ nav a {
     padding: 10px 15px;
 }
 
-a{    text-decoration: none;
+a {
+    text-decoration: none;
     color: rgb(73, 70, 25);
 }
 
 
-.contact1prs{
+.contact1prs {
     text-decoration: none;
     color: rgb(73, 70, 25);
     padding: 10px;
 }
 
 
- img {
-            border: 5px solid rgb(88, 57, 0);
-            border-radius: 10px;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-        }
+img {
+    border: 5px solid rgb(88, 57, 0);
+    border-radius: 10px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
