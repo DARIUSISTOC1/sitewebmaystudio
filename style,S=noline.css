@@ -14,7 +14,6 @@ section {
     background-color: rgb(255, 242, 101);
     color: rgb(73, 70, 25);
     padding: 20px;
-    border: rgb(73, 70, 25) 1px solid;
     text-align: center;
     box-shadow: 0 2px 0 rgba(0, 0, 0, 0.08);
 }
@@ -51,6 +50,18 @@ nav a {
     font-weight: bold;
     padding: 10px 15px;
 }
+
+a{    text-decoration: none;
+    color: rgb(73, 70, 25);
+}
+
+
+.contact1prs{
+    text-decoration: none;
+    color: rgb(73, 70, 25);
+    padding: 10px;
+}
+
 
  img {
             border: 5px solid rgb(88, 57, 0);
